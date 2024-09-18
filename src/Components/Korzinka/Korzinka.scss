@@ -1,0 +1,24 @@
+.kor_box{
+    &_card{
+        display: flex;
+        justify-content: center;
+        transform: translateY(380px);        
+    }
+}
+.product-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.kor_del{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_1{
+        font-size: 25px;
+        cursor: pointer;
+    }
+}

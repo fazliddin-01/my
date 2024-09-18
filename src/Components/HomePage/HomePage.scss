@@ -1,0 +1,101 @@
+.title {
+    padding: 20px 0;
+    text-shadow: 0 0 10px #919598;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    cursor: pointer;
+
+    &_card2{
+        box-shadow: 0 0 10px #919598;
+        transition: 0.3s;
+        transform: scale(0.9);
+        text-align: center;
+        color: #fff;
+        border-radius: 20px;
+        width: 420px;
+        border: 2px solid #fff;
+        &:hover{
+            box-shadow: 0 0 25px rgb(255, 255, 255);
+            &.active{
+                box-shadow: 0 0 50px #fff;
+            }
+            transform: scale(1);
+        }
+    }
+
+
+    &_title {
+        font-family: 'Montserrat';
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    &_description {
+        max-width: 300px;
+        width: 100%;
+        line-height: 16px;
+        margin: 10px auto;
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    &_price {
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    &_disc {
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        gap: 5px;
+    }
+
+    &_stock {
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 7px;
+    }
+    
+    &_filter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 0;
+        &_plus,
+        &_minus{
+            color: #fff;
+            font-size: 50px;
+        }
+        &_ozg{
+            font-size: 30px;
+        }
+        gap: 10px;
+       
+    }
+}
+
+.Add_to_Cart{
+    background: #fff;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    &_text{
+        padding: 10px;
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+    }
+    &:hover{
+        background: rgb(0, 0, 0,0.2);
+        color: #fff;
+        box-shadow: 0 0 8px #fff;
+    }
+}

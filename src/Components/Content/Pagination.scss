@@ -1,0 +1,29 @@
+.paginate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+    gap: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.4);
+    box-shadow: 0 0 5px #fff;
+    cursor: pointer;
+
+    &_next,
+    &_page,
+    &_prev,
+    &_break {
+        font-size: 30px;
+        font-family: "Montserrat";
+        cursor: pointer;
+        font-weight: 400;
+    }
+
+    &_active {
+        color: #149A03;
+    }
+}

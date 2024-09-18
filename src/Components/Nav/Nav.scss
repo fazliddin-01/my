@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 3px solid black;
+    box-shadow: 0 10px 10px rgb(255, 255, 255);
+    
+  }
+  
+  .logo img {
+    height: 40px;
+    
+}
+  
+  .nav_link {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav_link li {
+    display: inline;
+  }
+  
+  .nav_link li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .card {
+    font-size: 20px;
+    cursor: pointer;
+    &_count{
+      color: black;
+    font-size: 25px;
+      font-weight: 700;
+    }
+  }
+  

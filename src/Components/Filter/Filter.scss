@@ -1,0 +1,18 @@
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    &_count{
+        color: #fff;
+    }
+}
+
+.click{
+    padding: 5px;
+    border-radius: 5px;
+}
