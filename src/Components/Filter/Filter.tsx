@@ -28,7 +28,6 @@ const Shop: React.FC = () => {
           <option value="sortBy=price">По цене</option>
           <option value="sortBy=title&order=desc">По описанию</option>
         </select>
-        <button>Применить</button>
       </div>
 
       <Link className="card" to={`/Korzinka`}>

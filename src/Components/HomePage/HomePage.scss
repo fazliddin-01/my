@@ -9,6 +9,9 @@
     gap: 15px;
     cursor: pointer;
 
+    @include media(1284){
+        overflow-x: scroll;
+    }
     &_card2{
         box-shadow: 0 0 10px #919598;
         transition: 0.3s;

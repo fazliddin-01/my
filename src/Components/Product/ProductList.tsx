@@ -17,7 +17,7 @@ function ProductList() {
   const { id } = useParams();
 
   const click = () => {
-    alert("Haridingiz uchun katta rahmat");
+    alert("Tanlovingizdan hursandmiz😁");
   };
 
   useEffect(() => {
